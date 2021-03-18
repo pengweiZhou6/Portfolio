@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar'
+import Content from './components/Content'
+import useSticky from './hooks/useSticky.js'
+
+import Divider from '@material-ui/core/Divider';
+import BottomNavigation from '@material-ui/core/BottomNavigation';
+import Typography from "@material-ui/core/Typography";
+// import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const { isSticky, element } = useSticky()
+    return (
+        <>
+            <Navbar sticky={isSticky}/>
+            <Content element={element}/>
+        </>
+    )
 }
 
-export default App;
+export default App
