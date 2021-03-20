@@ -1,7 +1,8 @@
 import React from "react";
 
 const Skills = () => (
-    <section className="skills">
+    <div>
+        <section className="colorlib-skills" data-section="skills">
         <p className="content--skills">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
             doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
@@ -127,6 +128,7 @@ const Skills = () => (
             consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
         </p>
     </section>
+    </div>
 );
 
 export default Skills;

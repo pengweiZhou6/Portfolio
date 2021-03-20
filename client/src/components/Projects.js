@@ -1,7 +1,8 @@
 import React from "react";
 
-const Project = () => (
-    <section className="project">
+const Projects = () => (
+    <div>
+        <section className="colorlib-projects" data-section="projects">
         <p className="content--project">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
             doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
@@ -127,6 +128,7 @@ const Project = () => (
             consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
         </p>
     </section>
+    </div>
 );
 
-export default Project;
+export default Projects;

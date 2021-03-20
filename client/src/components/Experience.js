@@ -1,7 +1,8 @@
 import React from "react";
 
 const Experience = () => (
-    <section className="experience">
+    <div>
+        <section className="colorlib-experience" data-section="experience">
         <p className="content--experience">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
             doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
@@ -127,6 +128,7 @@ const Experience = () => (
             consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
         </p>
     </section>
+    </div>
 );
 
 export default Experience;

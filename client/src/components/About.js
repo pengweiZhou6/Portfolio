@@ -1,7 +1,8 @@
 import React from "react";
 
 const About = () => (
-    <section className="about">
+    <div>
+        <section className="colorlib-about" data-section="about">
         <p className="content--about">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
             doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
@@ -127,6 +128,7 @@ const About = () => (
             consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
         </p>
     </section>
+    </div>
 );
 
 export default About;
