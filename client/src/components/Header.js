@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-import '../stylesheet/Header.css'
+import '../stylesheet/Header.scss'
 //TODO add my Resume
 
 export default class Sidebar extends Component {
     render() {
         return (
-            <div>
                 <div>
                     <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
                     <aside id="colorlib-aside" className="border js-fullheight hideScrollbar">
@@ -41,8 +40,6 @@ export default class Sidebar extends Component {
                         </div>
                     </aside>
                 </div>
-            </div>
-
         )
     }
 }
