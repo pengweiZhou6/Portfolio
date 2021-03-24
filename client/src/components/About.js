@@ -1,6 +1,9 @@
-import React from "react";
+import React, {Component} from "react";
 import '../stylesheet/About.scss'
-const About = () => (
+
+export default class Sidebar extends Component {
+    render() {
+        return (
     <div>
         <section className="colorlib-about section-about" data-section="about">
             <div className="body">
@@ -18,6 +21,6 @@ const About = () => (
 
     </section>
     </div>
-);
-
-export default About;
+        )
+    }
+}

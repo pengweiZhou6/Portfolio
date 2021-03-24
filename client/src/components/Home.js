@@ -8,7 +8,7 @@ export default class Home extends Component {
     <div>
         <section className="colorlib-home section-home" data-section="home">
             <div className="hero">
-            <h1>Animated SVG <br></br>Scrolling Mouse Icon</h1>
+            <h1>Hi, I'm Pengwei Zhou <br></br>A passionate software developer </h1>
             <a className="scroll-link" href="#about" data-nav-section="about">
                 <svg className="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130"
                      preserveAspectRatio="xMidYMid meet">
