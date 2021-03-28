@@ -1,0 +1,31 @@
+h1 {
+  color: black;
+  margin-bottom: 3%;
+}
+
+.code-button {
+  position: absolute;
+  right: 0;
+  bottom: 8px;
+  background-color: black;
+  border: 1px solid;
+
+  height: 42px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 42px;
+  align-content: center;
+
+
+}
+
+.project-text {
+  text-align: left;
+  margin: 1%;
+}
+
+.project-title {
+  text-align: center;
+  margin: 1%;
+}
