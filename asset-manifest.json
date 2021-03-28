@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6dd7e56c.chunk.css",
+    "main.js": "/Portfolio/static/js/main.63a34f4a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.63a34f4a.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.a210408b.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.a210408b.js.map",
+    "static/js/2.6d6ba77d.chunk.js": "/Portfolio/static/js/2.6d6ba77d.chunk.js",
+    "static/js/2.6d6ba77d.chunk.js.map": "/Portfolio/static/js/2.6d6ba77d.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.6dd7e56c.chunk.css.map": "/Portfolio/static/css/main.6dd7e56c.chunk.css.map",
+    "static/js/2.6d6ba77d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.6d6ba77d.chunk.js.LICENSE.txt",
+    "static/media/Content-aggregator.9bb51887.png": "/Portfolio/static/media/Content-aggregator.9bb51887.png",
+    "static/media/Home.scss": "/Portfolio/static/media/MyPic.c98f9d6c.jpg",
+    "static/media/message-board.2804878e.png": "/Portfolio/static/media/message-board.2804878e.png",
+    "static/media/portfolio.50af0aad.png": "/Portfolio/static/media/portfolio.50af0aad.png",
+    "static/media/powerpoint-DSL.0390817c.png": "/Portfolio/static/media/powerpoint-DSL.0390817c.png",
+    "static/media/totally-gamer.d58b7654.png": "/Portfolio/static/media/totally-gamer.d58b7654.png",
+    "static/media/uml-analysis.74ded842.png": "/Portfolio/static/media/uml-analysis.74ded842.png",
+    "static/media/vpn.9cea23e5.png": "/Portfolio/static/media/vpn.9cea23e5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a210408b.js",
+    "static/js/2.6d6ba77d.chunk.js",
+    "static/css/main.6dd7e56c.chunk.css",
+    "static/js/main.63a34f4a.chunk.js"
+  ]
+}
