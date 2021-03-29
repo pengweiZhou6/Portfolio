@@ -31,9 +31,9 @@ export default class Sidebar extends Component {
                             <li><a
                                 href="https://drive.google.com/file/d/1Fmi2JHg_Q0CibpgWgA0wPY3sA2qT3AfU/view?usp=sharing"
                                 target="_blank" rel="noopener noreferrer"><AccountBoxIcon/></a></li>
-                            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i
+                            <li><a href="https://www.facebook.com/profile.php?id=100010996237620" target="_blank" rel="noopener noreferrer"><i
                                 className="icon-facebook2"/></a></li>
-                            <li><a href="https://www.linkedin.com/in/pengwei-oliver-zhou-1698a3207/" target="_blank"
+                            <li><a href="https://www.linkedin.com/in/pengweizhou" target="_blank"
                                    rel="noopener noreferrer"><i className="icon-linkedin2"/></a></li>
                             <li><a href="https://github.com/pengweiZhou6" target="_blank" rel="noopener noreferrer"><i
                                 className="icon-github"/></a></li>

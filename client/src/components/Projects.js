@@ -9,7 +9,7 @@ import msgBoard from '../assets/images/message-board.png';
 import vpn from '../assets/images/vpn.png';
 import portfolio from '../assets/images/portfolio.png';
 import totallyGamer from '../assets/images/totally-gamer.png';
-
+import scholarChat from '../assets/images/scholar-chat.png';
 
 export default class Projects extends Component {
     state = {
@@ -91,6 +91,16 @@ export default class Projects extends Component {
                     'php', 'css', 'OracleDB', 'Html'
                 ],
                 githubLink: "https://github.com/pengweiZhou6/Totally-Gamer"
+            },
+            {
+                id: 'scholar-chat',
+                title: 'Scholar Chat',
+                image: scholarChat,
+                description: 'Scholars Chat is an online tutoring website where students can post questions and tutors can initiate a one-on-one video call session with them.',
+                projectSkills: [
+                    'React-redux.js', 'Node.js', 'Express.js', 'MongoDB', 'Heroku', 'GraphQL'
+                ],
+                githubLink: "https://github.com/pengweiZhou6/scholars-direct"
             },
         ]
 
